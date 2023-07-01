@@ -87,9 +87,9 @@ body {
   background-color: #36384D;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 main {
@@ -161,7 +161,7 @@ main h1 {
   background-color: #FFE8E6;
 }
 .wrong-email::placeholder {
-  color: #e97379;
+  color: #e97379 !important;
 }
 
 .success-box {
@@ -169,8 +169,9 @@ main h1 {
   position: absolute;
   background-color: white;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
   padding: 1.5rem;
   width: 25%;
   min-height: 10vw;
